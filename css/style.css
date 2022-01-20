@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Poppins", sans-serif;
+}
+/*------------
+ navbar 
+ -------------*/
+#mesh {
+  position: absolute;
+  top: 10px;
+  padding-left: 20px;
+}
+/* ---------------------
+header section 
+------------------------*/
+.bg__header {
+  background-color: #fffbf0;
+  padding: 50px 0;
+}
+.heading {
+  font-family: Bebas Neue;
+}
+.heading__color {
+  color: #fabe4c;
+}
+a.buy__btn {
+  text-decoration: none;
+  color: #fff;
+}
+.buy__btn {
+  background: linear-gradient(90deg, #a4bc46, #85a019);
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+/*---------------------------
+ man jacket section 
+ -----------------------------*/
+.price__color {
+  color: #fabe4c;
+}
+/*-----------------
+ Media quaries 
+ -------------------*/
+/* Mobile device */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .header__left {
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+}
